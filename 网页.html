@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../favicon.ico">
+        <title>网页</title>
+        <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+        <link href="offcanvas.css" rel="stylesheet">
+        <script src="../../assets/js/ie8-responsive-file-warning.js"></script>
+        <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+        <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <script></script>
+        <style>
+                *{margin: 0px;padding: 0px}
+                .jumbotron{
+                        margin-top: -60px;
+                        background-color: rgba(255, 255, 255, 0.02);
+                }
+                .list-group{
+                        margin-left: -10px;
+                        margin-top: 20px;
+                }
+        </style>
+
+</head>
+
+<body>
+<nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+                <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">视频</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">同城</a></li>
+                                <li><a href="#about">音乐</a></li>
+                                <li><a href="#contact">地图</a></li>
+                        </ul>
+                </div>
+        </div>
+</nav>
+<div class="container">
+
+        <div class="row row-offcanvas row-offcanvas-right">
+
+                <div class="col-xs-12 col-sm-9">
+                        <p class="pull-right visible-xs">
+                                <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+                        </p>
+                        <div class="jumbotron">
+                        </div>
+                        <button type="button" class="btn btn-default">（默认样式）Default</button>
+                        <button type="button" class="btn btn-primary">（首选项）Primary</button>
+                        <button type="button" class="btn btn-success">（成功）Success</button>
+                        <button type="button" class="btn btn-info">（一般信息）Info</button>
+                        <button type="button" class="btn btn-warning">（警告）Warning</button>
+                        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+                                <div class="list-group">
+                                        <a href="#" class="list-group-item ">酸奶</a>
+                                        <a href="#" class="list-group-item ">香蕉</a>
+                                        <a href="#" class="list-group-item">杨梅</a>
+                                        <a href="#" class="list-group-item">烤肉</a>
+                                        <a href="#" class="list-group-item">巧克力</a>
+                                        <a href="#" class="list-group-item">大辣片</a>
+                                        <a href="#" class="list-group-item">火锅</a>
+                                        <a href="#" class="list-group-item">鸡爪子</a>
+                                        <a href="#" class="list-group-item">桂圆干</a>
+                                        <a href="#" class="list-group-item">更多</a>
+                                </div>
+                        </div>
+
+                        <div class="row">
+                                <div class="col-xs-6 col-lg-4">
+                                        <h2>第一板块</h2>
+                                        <p>改革开放四十周年，首届中国国际进口展览会在上海盛大开幕哈哈哈哈 </p>
+                                        <p><a class="btn btn-default" href="#" role="button">展开 &raquo;</a></p>
+                                </div>
+                                <div class="col-xs-6 col-lg-4">
+                                        <h2>第二板块</h2>
+                                        <p>黄浦江，见证了中国一百多年的开放历史。新时代，古老的黄浦江迎来一场开放的盛会！ </p>
+                                        <p><a class="btn btn-default" href="#" role="button">展开 &raquo;</a></p>
+                                </div>
+                                <div class="col-xs-6 col-lg-4">
+                                        <h2>第三板块</h2>
+                                        <p>这是世界上第一个以进出口为主题的大型国家级展会，一年多来，习近平亲自谋划了这一盛会，并在多个国际场合向各界积极推介博会。 </p>
+                                        <p><a class="btn btn-default" href="#" role="button">展开 &raquo;</a></p>
+                                </div>
+
+</div>
+
+</body>
+</html>
